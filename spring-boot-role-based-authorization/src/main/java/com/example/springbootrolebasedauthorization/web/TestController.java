@@ -1,3 +1,11 @@
+/*
+ * @Author: jack ning github@bytedesk.com
+ * @Date: 2024-01-26 17:05:17
+ * @LastEditors: jack ning github@bytedesk.com
+ * @LastEditTime: 2024-01-26 17:08:10
+ * @FilePath: /Spring-Security/spring-boot-role-based-authorization/src/main/java/com/example/springbootrolebasedauthorization/web/TestController.java
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 package com.example.springbootrolebasedauthorization.web;
 
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -28,4 +36,3 @@ public class TestController {
         return "This resource requires the ADMIN role";
     }
 }
-
